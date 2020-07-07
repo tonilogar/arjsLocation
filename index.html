@@ -18,9 +18,9 @@
             embedded
             arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
             <a-assets>
-                <a-asset-item id="sentinelDeca-obj" src="models/sentinelDeca.obj"></a-asset-item>
+                <!-- <a-asset-item id="sentinelDeca-obj" src="models/sentinelDeca.obj"></a-asset-item>
                 <a-asset-item id="sentinelDeca-mtl" src="models/sentinelDeca.mtl"></a-asset-item>
-                <a-mixin id="propertiesSD" scale="0.15 0.15 0.15" position ="0 0 0" rotation="0 0 0"></a-mixin>
+                <a-mixin id="propertiesSD" scale="0.15 0.15 0.15" position ="0 0 0" rotation="0 0 0"></a-mixin> -->
                 <!-- <video
                     src="assets/asset.mp4"
                     preload="auto"
@@ -34,7 +34,8 @@
                     playsinline
                 ></video> -->
             </a-assets>
-            <a-entity mixin="propertiesSD" obj-model="obj: #sentinelDeca-obj; mtl: #sentinelDeca-mtl " gps-entity-place="longitude: 2.199006378652713; latitude: 41.412004265041475;"></a-entity>
+            <!-- <a-entity mixin="propertiesSD" obj-model="obj: #sentinelDeca-obj; mtl: #sentinelDeca-mtl " gps-entity-place="longitude: 2.199006378652713; latitude: 41.412004265041475;"></a-entity> -->
+            <a-box color="yellow" gps-entity-place="latitude: 41.412004265041475; longitude: 2.199006378652713"/>
             <!-- <a-video
                     src="#vid"
                     position='0 0.1 0'
